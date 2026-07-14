@@ -1,5 +1,5 @@
 
-#import "pipeline.typ": pipeline
+#import "src/pipeline.typ": pipeline
 
 // 衬线体
 #let default-font-serif = (

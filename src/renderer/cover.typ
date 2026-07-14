@@ -40,7 +40,7 @@
       align: (left + horizon, right + horizon),
       [],
       box(height: 2.5cm)[
-        #image("../assets/logo.png", height: 100%)
+        #image("../../assets/logo.png", height: 100%)
       ],
       [],
     )
@@ -48,7 +48,7 @@
     // --- 中间：学校名 + 院系名称 + 文档大标题 ---
     align(center)[
       #block(width: 55%)[
-        #image("../assets/font_logo.png", width: 100%)
+        #image("../../assets/font_logo.png", width: 100%)
       ]
       #v(1cm)
       #text(size: 20pt, weight: "bold", font: font-sans, tracking: 0.1em)[#department]
