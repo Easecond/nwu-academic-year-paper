@@ -91,7 +91,7 @@ typst compile example.typ
 ## 目录结构
 
 ```text
-nwu-academic-year-paper/
+.
 ├── assets/               # 校徽 LOGO 等静态资源
 ├── src/                  # 模板核心源码
 │   ├── renderer/         # 各页面排版渲染器 (封面、摘要、目录等)
