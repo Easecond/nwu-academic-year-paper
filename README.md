@@ -47,7 +47,7 @@ typst compile example.typ
 
 若需更加具体的用例，可参考 `example.typ` 源码。
 
-## ⚙️ 核心参数说明
+## 核心参数说明
 
 本模板提供丰富的自定义参数，均带有默认值，可根据需求在 `template.with()` 中覆盖：
 
@@ -88,7 +88,7 @@ typst compile example.typ
 
 > 💡 **提示**：模板不自带字体文件，直接调用系统内置字体，若需完整功能请先安装字体，或传入参数以使用其他字体。
 
-## 📂 目录结构
+## 目录结构
 
 ```text
 nwu-academic-year-paper/
