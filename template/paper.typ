@@ -1,4 +1,4 @@
-#import "../lib.typ": template
+#import "@preview/simple-nwu-year-paper:0.1.0": template
 
 // === 1. 长文本摘要 ===
 #let zh-abstract = [
