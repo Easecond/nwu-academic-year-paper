@@ -1,0 +1,3 @@
+
+[tasks.thumbnail]
+run = "typst compile --format png --pages 1 --ppi 250 template/paper.typ thumbnail.png --root ."

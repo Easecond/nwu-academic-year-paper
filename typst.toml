@@ -4,7 +4,12 @@ version = "0.1.0"
 entrypoint = "lib.typ"
 authors = ["Easecond"]
 license = "MIT"
-description = "西北大学学年论文 Typst 模板。 | An academic year paper template for Northwest University (China), built with Typst."
+description = "西北大学学年论文。 | Northwest University (China) Academic Year Paper."
 repository = "https://github.com/Easecond/nwu-academic-year-paper"
-keywords = ["Northwest University", "Paper"]
+keywords = ["Northwest University", "paper"]
 categories = ["paper"]
+
+[template]
+path = "template"
+entrypoint = "paper.typ"
+thumbnail = "thumbnail.png"

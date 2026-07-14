@@ -1,4 +1,4 @@
-#import "template.typ": template
+#import "../lib.typ": template
 
 // === 1. 长文本摘要 ===
 #let zh-abstract = [
@@ -50,7 +50,7 @@
   meta-en-keywords: ([Typst Template], [Northwest University], [Typesetting], [Academic Paper]),
 
   // --- 参考文献路径 ---
-  meta-bib-path: "/ref.bib",
+  meta-bib-path: "/template/ref.bib",
 )
 
 
@@ -77,7 +77,7 @@ $ P(A|B) = (P(B|A) P(A)) / P(B) $
 == 图表联动编号测试
 测试一张图片的插入与自动编号（预期为：图 2-1）：
 #figure(
-  image("assets/logo.png", width: 40%),
+  image("../assets/logo.png", width: 40%),
   caption: [校徽样式测试],
 ) <nwu-logo>
 

@@ -112,8 +112,6 @@ nwu-academic-year-paper/
 ├── lib.typ               # 暴露的顶层接口
 ├── typst.toml            
 ├── LICENSE               
-├── ref.bib               # 编译示例所需的测试参考文献数据
-├── example.typ           # 完整的测试示例
 └── README.md                 
 ```
 
