@@ -93,8 +93,6 @@ typst compile example.typ
 ```text
 nwu-academic-year-paper/
 ├── assets/               # 校徽 LOGO 等静态资源
-│   ├── font_logo.png
-│   └── logo.png
 ├── renderer/             
 │   ├── abstract.typ      # 摘要页渲染
 │   ├── bibliography.typ  # 参考文献页渲染
@@ -105,10 +103,12 @@ nwu-academic-year-paper/
 │   ├── figure.typ        # 图表规则
 │   ├── heading.typ       # 标题规则
 │   └── reference.typ     # 交叉引用规则
+├── template/
+│   ├── paper.typ
+│   └── ref.bib
 ├── pipeline.typ          
 ├── renderer.typ          # 渲染器中转入口
 ├── show-rules.typ        # 规则集总中转入口
-├── template.typ          # 模板入口函数与参数配置
 ├── lib.typ               # 暴露的顶层接口
 ├── typst.toml            
 ├── LICENSE               
