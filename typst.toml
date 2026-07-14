@@ -1,0 +1,7 @@
+[package]
+name = "simple-nwu-year-paper"
+version = "0.1.0"
+entrypoint = "lib.typ"
+authors = ["Easecond"]
+license = "MIT"
+description = "An academic year paper template for Northwest University (China), built with Typst."
