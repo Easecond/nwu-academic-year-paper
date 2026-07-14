@@ -81,7 +81,7 @@ typst compile example.typ
 
 本模板采用如下默认字体设置：
 
-| 用途 | 默认回退链 (优先 $\rightarrow$ 兜底) | 适用场景 |
+| 用途 | 字体优先级序列 | 适用场景 |
 | --- | --- | --- |
 | **正文 (衬线)** | `"Times New Roman"`, `"Source Han Serif"`, `"SimSun"`, `"STSong"` | 正文、摘要、参考文献、页眉页脚 |
 | **标题 (无衬线)** | `"Arial"`, `"Source Han Sans"`, `"Microsoft YaHei"`, `"SimHei"` | 封面、各级标题、表格标题 |
