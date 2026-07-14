@@ -92,29 +92,28 @@ typst compile example.typ
 
 ```text
 nwu-academic-year-paper/
-├── 0.1.0/
-│   ├── assets/               # 校徽 LOGO 等静态资源
-│   │   ├── font_logo.png
-│   │   └── logo.png
-│   ├── renderer/             
-│   │   ├── abstract.typ      # 摘要页渲染
-│   │   ├── bibliography.typ  # 参考文献页渲染
-│   │   ├── cover.typ         # 封面页渲染
-│   │   └── outline.typ       # 目录页渲染
-│   ├── show-rules/           
-│   │   ├── equation.typ      # 数学公式规则
-│   │   ├── figure.typ        # 图表规则
-│   │   ├── heading.typ       # 标题规则
-│   │   └── reference.typ     # 交叉引用规则
-│   ├── pipeline.typ          
-│   ├── renderer.typ          # 渲染器中转入口
-│   ├── show-rules.typ        # 规则集总中转入口
-│   ├── template.typ          # 模板入口函数与参数配置
-│   ├── lib.typ               # 暴露的顶层接口
-│   ├── typst.toml            
-│   ├── LICENSE               
-│   ├── ref.bib               # 编译示例所需的测试参考文献数据
-│   └── example.typ           # 完整的测试示例
+├── assets/               # 校徽 LOGO 等静态资源
+│   ├── font_logo.png
+│   └── logo.png
+├── renderer/             
+│   ├── abstract.typ      # 摘要页渲染
+│   ├── bibliography.typ  # 参考文献页渲染
+│   ├── cover.typ         # 封面页渲染
+│   └── outline.typ       # 目录页渲染
+├── show-rules/           
+│   ├── equation.typ      # 数学公式规则
+│   ├── figure.typ        # 图表规则
+│   ├── heading.typ       # 标题规则
+│   └── reference.typ     # 交叉引用规则
+├── pipeline.typ          
+├── renderer.typ          # 渲染器中转入口
+├── show-rules.typ        # 规则集总中转入口
+├── template.typ          # 模板入口函数与参数配置
+├── lib.typ               # 暴露的顶层接口
+├── typst.toml            
+├── LICENSE               
+├── ref.bib               # 编译示例所需的测试参考文献数据
+├── example.typ           # 完整的测试示例
 └── README.md                 
 ```
 
